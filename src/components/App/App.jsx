@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from '../../assets/logo.svg';
+import {Header} from '../Header';
+import {Hero} from '../Hero/Hero';
 
 export const App = () => {
 
 
   return (
       <div className="App_css" data-testid="app">
-        <img src={logo} alt="" />
+        <Header/>
+        <Hero/>
+
       </div>
   );
 };
