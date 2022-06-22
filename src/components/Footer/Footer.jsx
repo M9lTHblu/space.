@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from '../../assets/logo.svg';
 
 const links = ['Готовые решения', 'О нас', 'Блог', 'Контакты'];
@@ -13,7 +14,7 @@ export const Footer = () => {
                 {links.map((l, i) =>
                     <li className='list__item' key={i}>
                       <a className='Footer__link' href='#'>{l}</a>
-                    </li>
+                    </li>,
                 )}
               </ul>
             </nav>
@@ -23,10 +24,10 @@ export const Footer = () => {
               © ООО «Лого», 2008—2022
             </span>
             <div className='Footer__icons'>
-              <svg className='Footer__icon'/>
-              <svg className='Footer__icon'/>
-              <svg className='Footer__icon'/>
-              <svg className='Footer__icon'/>
+              <svg className='Footer__icon' />
+              <svg className='Footer__icon' />
+              <svg className='Footer__icon' />
+              <svg className='Footer__icon' />
             </div>
           </div>
         </div>
