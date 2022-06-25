@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {DataContextProvider} from '../../Context';
 import {Footer} from '../Footer';
 import {Header} from '../Header';
