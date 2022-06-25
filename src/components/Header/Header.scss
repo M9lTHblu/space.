@@ -1,0 +1,30 @@
+.Header {
+  background-color: var(--ligth);
+  &__container {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 768px) {
+      margin-bottom: 16px;
+    }
+  }
+  &__nav {
+    font-weight: var(--fw-medium);
+    line-height: 20px;
+    color: #888888;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__phone {
+    margin-right: 40px;
+
+  }
+
+ a {
+   text-decoration: none;
+   color: #888888;
+ }
+
+}

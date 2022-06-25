@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/shared/logo.svg';
 
 const links = ['Готовые решения', 'О нас', 'Блог', 'Контакты'];
 

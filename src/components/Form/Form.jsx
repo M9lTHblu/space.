@@ -1,6 +1,8 @@
 import React from 'react';
+import './Form.scss';
 
 export const Form = () => {
+
   return (
       <form className='Form'>
         <div className='Form__controls'>
@@ -11,11 +13,29 @@ export const Form = () => {
           </select>
         </div>
         <div className='Form__controls'>
-          <input className='Form__input' type='number' name='from' id='from'
-                 placeholder='От' />
-          <span className='separator'>-</span>
-          <input className='Form__input' type='to' name='from' id='to'
-                 placeholder='До' />
+          <label >
+            От
+            <input
+                className='Form__input'
+                type='date'
+                name='date'
+                id='fromDate'
+                placeholder='От'
+                defaultValue='hello'
+            />
+          </label>
+
+          <span className='Form__separator' />
+          <label>
+            До
+            <input className='Form__input'
+                   type='date-time-local'
+                   name='date'
+                   id='toDate'
+                   defaultValue=''
+                   placeholder='До'
+            />
+          </label>
         </div>
       </form>
   );
